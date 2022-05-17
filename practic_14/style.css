@@ -1,0 +1,88 @@
+body {
+    background: #e5e5e5;
+    margin-top: 0;
+    font-family: Arial, 'sans-serif';
+    color: #313131;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding-top: 30px;
+    background: #f3f3f3;
+    width: 70%;
+    min-height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-label {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.input-weather {
+    width: 40%;
+    padding: 10px;
+    font-size: 30px;
+    color: #313131;
+    border-radius: 10px;
+}
+#button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px;
+    /*border-radius: 10px;*/
+}
+.weather {
+    min-height: 30px;
+    background: #ececec;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+}
+.city-name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #000000;
+}
+.temp {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #111111;
+}
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.refresh {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.weather img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hr {
+    height: 1px;
+    background: rgba(91, 91, 91, 0.54);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
